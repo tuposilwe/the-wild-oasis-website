@@ -1,7 +1,12 @@
+import Navigation from "../components/Navigation"
+
  
 function Page() {
   return (
-    <div>Cabins page</div>
+    <div>
+      <Navigation/>
+      <h1>Cabins page</h1>
+    </div>
   )
 }
 

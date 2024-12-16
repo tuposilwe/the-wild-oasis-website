@@ -1,7 +1,9 @@
  
 function Page() {
   return (
-    <div>Your Account</div>
+    <div>
+      <h1>Your Account</h1>
+    </div>
   )
 }
 

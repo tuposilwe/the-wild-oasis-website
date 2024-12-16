@@ -1,7 +1,11 @@
  
 function Page() {
   return (
-    <div>About The Wild Oasis</div>
+    <div>
+      <h1>
+      About The Wild Oasis
+      </h1>
+    </div>
   )
 }
 
