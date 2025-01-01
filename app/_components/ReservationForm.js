@@ -1,9 +1,8 @@
-import { getCabin } from "../_lib/data-service";
+"use client";
 
-async function ReservationForm({ cabinId }) {
-  // CHANGE
-
-  const { maxCapacity } = await getCabin(cabinId);
+function ReservationForm({ cabin }) {
+  // CHANGE 
+  const { maxCapacity } = cabin;
 
   return (
     <div className="scale-[1.01]">

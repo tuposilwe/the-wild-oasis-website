@@ -19,7 +19,7 @@ async function Reservation({ cabin }) {
         bookedDates={bookedDates}
         cabinId={cabin.id}
       />
-      <ReservationForm cabinId={cabin.id} />
+      <ReservationForm cabin={cabin} />
     </div>
   );
 }
