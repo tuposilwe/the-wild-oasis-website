@@ -4,7 +4,7 @@ import Spinner from "@/app/_components/Spinner";
 import Filter from "../_components/Filter";
 import ReservationReminder from "../_components/ReservationReminder";
 
-export const revalidate = 1005; //modified
+export const revalidate = 240001005; //modified
 
 export const metadata = {
   title: "Cabins ",
@@ -35,7 +35,7 @@ export default async function Page({ searchParams }) {
 
       <Suspense fallback={<Spinner />} key={filter}>
         <CabinList filter={filter} />
-        <ReservationReminder/>
+        <ReservationReminder />
       </Suspense>
     </div>
   );
